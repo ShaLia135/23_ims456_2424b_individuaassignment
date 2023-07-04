@@ -1,0 +1,97 @@
+<html>
+<head>
+	<title>Video Background</title>
+	<style>
+		body 
+		{
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+		}
+		#video-background 
+		{
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			z-index: -1;
+			overflow: hidden;
+		}
+		#video-background video 
+		{
+			min-width: 100%;
+			min-height: 100%;
+			object-fit: cover;
+		}
+		.content 
+		{
+			position: relative;
+			z-index: 1;
+			color: #fff;
+			text-align: center;
+			padding: 200px;
+		}
+		.content h1 
+		{
+			font-size: 60px;
+			margin-top: 0;
+			font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		}
+		.content p 
+		{
+			font-size: 30px;
+		}
+		a
+    	{
+        color:whitesmoke;
+        font-size:large;
+        text-align:center;
+        padding-right:6.5%;
+        text-decoration:dotted;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 500;
+   		}
+	a:hover
+   		{
+    	color:whitesmoke;
+    	background-size: cover;
+    	background-color:lightskyblue;
+  	 	} 
+	.theend
+		{
+			color:white;
+        	text-align: center;	
+			-ms-text-underline-position: under;
+		}
+	</style>
+</head>
+<body>
+	<div id="video-background">
+		<video autoplay loop muted>
+			<source src="images/Galaxy Motion Background Video [HD] ~ FREE.mp4" type="video/mp4">
+		</video>
+	</div>
+
+<!--menu-->
+<div class="menu">
+	<a href="index.html">Home</a>
+	<a href="homepage.html">Intro</a>
+	<a href="bio.html">About Me</a>
+	<a href="edu.html">My Education</a>
+	<a href="myhobby.html">My Hobby</a>
+	<a href="exp.html">My Experience</a>
+	<a href="contact.html">My Contact</a>
+	</div>
+
+	<div class="content">
+		<h1>Welcome to My Website</h1>
+		<p>Sharifah Amalia</p>
+	</div>
+
+	<div class="theend">
+		<p style="text-align:center;">Designed by Sharifah Amalia | Copyright 2023</p>
+	</div>
+
+</body>
+</html>
