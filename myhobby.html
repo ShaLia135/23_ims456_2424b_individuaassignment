@@ -2,14 +2,75 @@
     <head>
         <title>My Hobby</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f2f2f2;
+                padding: 10px;
+            }
+            h2 {
+                color: #333;
+                text-align: center;
+            }
+            .container {
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                margin-top: 30px;
+            }
+            .anime-card {
+                width: 300px;
+                background-color: #fff;
+                border-radius: 10px;
+                padding: 20px;
+                margin-bottom: 20px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
+            .anime-card h2 {
+                font-size: 20px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            .anime-card h3 {
+                color: black;
+                font-size: 15px;
+                margin-top: 10px;
+                margin-bottom: 5px;
+            }
+            .anime-card p {
+                color: #666;
+                font-size: 14px;
+                margin-top: 0;
+                text-align: justify;
+            }
+            .anime-card li
+            {
+                color: #464646;
+                font-size: 14px;
+                margin-top: 0;
+                text-align: justify;                
+            }
+	        .theend
+		    {
+			color:white;
+        	text-align: center;	
+			-ms-text-underline-position: under;
+		    }
+	</style>
+        </style>
     </head>
 <body>
+
+	<div id="video-background">
+		<video autoplay loop muted>
+			<source src="images/MOON CYCLOOON !.mp4" type="video/mp4">
+		</video>
+	</div>
 
 <!--menu-->
 <div class="menu">
     <a href="index.html">Home</a>
-    <a href="homepage.html">Intro</a>
-    <a href="bio.html">About Me</a>
+    <a href="homepage.html">About Me</a>
     <a href="edu.html">My Education</a>
     <a href="myhobby.html">My Hobby</a>
     <a href="exp.html">My Experience</a>
@@ -18,16 +79,38 @@
 
 <h1>My Hobby</h1>
 
+<div class="container">
+    <div class="anime-card">
+        <iframe width="100%" height="200px" src="https://www.youtube.com/embed/LHTYpWI3S6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h3>My First Hobby:</h3>
+        <h2>Watching Anime</h2>
+        <p>This is one of my favourite anime called "One Piece" which is a series about Monkey D. Luffy, a rubber-powered young man who aspires to become the Pirate King by finding the legendary treasure known as the One Piece. Luffy forms a crew, the Straw Hat Pirates, and together they sail the seas, facing off against pirates, the World Government, and uncovering the mysteries of the Void Century and ancient weapons. Their journey is driven by the search for poneglyphs, powerful ancient inscriptions that hold clues to the treasure's location. Along the way, they gain new allies, encounter dangerous foes, and strive to fulfill their dreams in a world of adventure and discovery.</p>
+    </div>
+    <div class="anime-card">
+        <iframe width="100%" height="200px" src="https://www.youtube.com/embed/slWUgHPZB7M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h3>My Second Hobby:</h3>
+        <h2>Playing Badminton</h2>
+        <p>I have enjoyed playing badminton since I was a child, mainly because my father was also a badminton enthusiast. He used to take me to the Stadium Indra Mulia in Ipoh, Perak, for badminton classes, which was a truly enjoyable experience. I made new friends and learned how to play badminton properly. Although it was challenging at first, I grew to love it. Nowadays, I often play badminton with my family at home or enjoy a game with friends during my leisure time.</p>
+    </div>
+    <div class="anime-card">
+        <iframe width="100%" height="200px" src="https://www.youtube.com/embed/i23stZRb6ko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h3>My Last Hobby:</h3>
+        <h2>Reading Novels</h2>
+        <p>I used to collect books from a few different company such as :-</p>
+        <ul>
+            <li>Karya Seni</li>
+            <li>Kaki Novel</li>
+            <li>PenulisanU2</li>
+            <li>Pelangi</li>
+        </ul>
+    </div>
+</div>
+
+<div class="theend">
+    <p style="text-align:center;">Designed by Sharifah Amalia | Copyright 2023</p>
+</div>
 
 
-
-
-
-
-
-
-
-
-    
+ 
 </body>
 </html>
